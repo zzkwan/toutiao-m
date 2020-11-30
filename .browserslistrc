@@ -1,3 +1,8 @@
-> 1%
-last 2 versions
-not dead
+# > 1%
+# last 2 versions
+# not dead
+# browserslist的配置文档在github上查找github.com/browserslist/browserslist
+
+
+Android >= 4.0
+iOS >= 8

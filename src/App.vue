@@ -1,6 +1,6 @@
 <template>
   <div id="nav">
-    <h1>KAI头条</h1>
+    <!-- <h1>KAI头条</h1> -->
   </div>
   <router-view />
 </template>
@@ -9,6 +9,12 @@
 export default {
   name: "App",
 };
-</script>
+</script> 
 
-<style lang="less"></style>
+<style lang="less">
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: pink;
+}
+</style>
