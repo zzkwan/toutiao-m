@@ -34,6 +34,15 @@
     <script>
         // 1. 定义 (路由) 组件。
         // 可以从其他文件 import 进来
+        import Vuex from 'Vuex'
+        Vue.use(Vuex)
+
+        const store = new Vuex.store({
+            state: {
+                count: 0
+            }
+        })
+
         const Foo = {
             template: '<div>foo</div>',
             created: function () {
