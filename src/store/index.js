@@ -1,7 +1,7 @@
 import { createStore } from 'vuex'
 import { getItem, setItem } from "@/utils/storage.js"
 
-const USER = 'User'
+const USER = 'user'
 
 export default createStore({
   //提供唯一公共数据源
