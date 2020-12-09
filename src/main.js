@@ -14,5 +14,7 @@ import 'vant/lib/index.css';
 //引入less总体样式
 import './styles/index.less'
 
+import './utils/dayjs'
+
 //创建Vue根实例
 createApp(App).use(store).use(router).use(Vant).mount('#app')
